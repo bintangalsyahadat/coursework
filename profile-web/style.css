@@ -14,12 +14,12 @@ body {
 }
 
 .card {
+    margin: 1rem;;
     padding: 1rem;
     background-color: #fff;
     width: 600px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    text-align: center;
 }
 
 .card-image {
@@ -27,5 +27,31 @@ body {
     height: 130px;
     background-color: #aaa;
     border-radius: 50%;
-    margin: -80px auto 1rem;
+    margin: -80px auto 0.5rem;
+    overflow: hidden;;
+}
+
+.card-title, .card-subtitle {
+    text-align: center;
+}
+
+.card-subtitle {
+    margin-bottom: 1rem;
+}
+
+.card-table {
+    width: 100%;
+}
+
+.card-table .card-table-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-table tr td {
+    padding: 0.5rem;
+}
+
+.text-center {
+    text-align: center;
 }
